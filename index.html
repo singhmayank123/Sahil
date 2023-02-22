@@ -1,0 +1,61 @@
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+            <style>
+                
+                body {
+                font-family: cursive;
+                }
+            </style>
+    </head>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="count.css">
+
+    <div class="container-content">
+
+        <div class="image-container"></div>
+
+        <div class="happy__content">
+                <h1>Happy birthday meri beti, meri jaan!!</h1>
+            </div>
+
+        <div class="setting-icon" style="display: none;">
+            <i class="fas fa-cog"></i>
+        </div>
+        <div class="content">
+            
+          
+            <div class="countdown__content">
+                <div class="headline">
+                   <h1>COUNTDOWN TO SAHIL'S BIRTHDAY!</h1>
+                </div>
+              
+                <ul>
+                    <li><span class="days"></span>Days</li>
+                    <li><span class="hours"></span>Hours</li>
+                    <li><span class="minutes"></span>Minutes</li>
+                    <li><span class="seconds"></span>Seconds</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="content-modalbox">
+            <h1 class="headline__modalbox">Insert Your Birthday</h1>
+            
+            <div class="input-container__modalbox">
+                <input type="text" class="birthday__input" placeholder="exp: 20 March 2000">
+                <button  class="button submit-btn__input--style">Submit Date</button>
+            </div>
+            <div class="alert-paragraph__modalbox">
+                Alert : You have to insert with format like this "Date Month Year" and make sure you write the month in English. Exp : 13 March 2001. Otherwise, it's not gonna working.
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-canvas">
+        <canvas></canvas>
+    </div>
+    <button class="my-button"></button>
+    <audio src="sahil.mp3" controls loop style="visibility:hidden;"></audio>
+
+    <script type="text/javascript" src="count.js"></script>
